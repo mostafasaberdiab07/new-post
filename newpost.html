@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="newpost.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css"/>
+    <title>New Post</title>
+  </head>
+  <body>
+    <!--Navbar-->
+    <div class="header" style="z-index:100000;">
+      <div class="inner_header">
+        <div class="logo-container">
+          <h1>SFS<span> Students</span></h1>
+        </div>
+        <ul class="nav">
+          <a href="index.php"><li><i class="fas fa-home" aria-hidden="true"></i></li></a>
+          <a href="explore.php"><li><i class="fas fa-compass" aria-hidden="true"></i></li></a>
+          <a href="profile.php?username=<?php echo $username; ?>"><li><i class="fa fa-user" aria-hidden="true"></i></li></a>
+        </ul>
+      </div>
+    </div>
+    <!--new post-->
+    <input class="img-input" type="file" name="postimg" value="Upload">
+    <textarea id="hellos" class="textarea" name="postbody" rows="8" cols="80" placeholder="Add a caption"></textarea>
+    <input type="submit" name="post" value="Post" class="post-btn" type="button" >
+  </body>
+</html>
