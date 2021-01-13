@@ -56,47 +56,41 @@ body{
   font-size: 25px;
   padding-bottom: 1px;
 }
-
-.wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 /*new post*/
-input[type="file"]{
+.wrap{
+  display: grid;
+  justify-content: center;
+  position: relative;
+  top: 100px;
+}
+.img-input{
   box-sizing: border-box;
   font-size: 20px;
-  background-color: #21b0a2;
   color: white;
   border-radius: 5px;
-  position: relative;
-  left: 700px;
-  top: 20px;
+  background: #21b0a2;
+  height: 29px;
+  width: 700px;
 }
-.textarea {
-  max-height: 100px;
-  min-height: 100px;
-  min-width: 500px;
-  max-width: 500px;
-  position: relative;
-  top: 150px;
-  left: 250px;
+.textarea{
+  outline: none;
+  resize: none;
+  height: 100px;
+  width: 700px;
   background: linear-gradient(45deg, 	#0000cc, 	#21b0a2);
-  font-size: 20px;
-  border-radius: 20px;
-}
-.textarea::placeholder{
+  font-size: 17px;
   font-family: cursive;
-  font-size: 15px;
-  padding-left: 5px;
+  position: relative;
+  top: 10px;
+  border-radius: 5px;
 }
 .post-btn{
-  position: relative;
-  top: 200px;
-  box-sizing: border-box;
-  font-size: 20px;
-  background-color: #21b0a2;
-  color: white;
+  background: #21b0a2;
+  border: 0;
   border-radius: 5px;
-  left: 50px;
+  position: relative;
+  top: 20px;
+  height: 30px;
+  font-size: 22px;
+  font-family: cursive;
 }
