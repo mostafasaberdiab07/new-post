@@ -61,24 +61,24 @@ body{
   display: grid;
   justify-content: center;
   position: relative;
-  top: 100px;
+  top: 500px;
 }
 .img-input{
   box-sizing: border-box;
-  font-size: 20px;
+  font-size: 50px;
   color: white;
   border-radius: 5px;
   background: #21b0a2;
-  height: 29px;
-  width: 700px;
+  height: 60px;
+  width: 1000px;
 }
 .textarea{
   outline: none;
   resize: none;
-  height: 100px;
-  width: 700px;
+  height: 300px;
+  width: 1000px;
   background: linear-gradient(45deg, 	#0000cc, 	#21b0a2);
-  font-size: 17px;
+  font-size: 22px;
   font-family: cursive;
   position: relative;
   top: 10px;
@@ -91,6 +91,8 @@ body{
   position: relative;
   top: 20px;
   height: 30px;
-  font-size: 22px;
+  font-size: 50px;
   font-family: cursive;
+  width: 1000px;
+  height: 100px;
 }
